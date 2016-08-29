@@ -1,0 +1,101 @@
+﻿capital=4
+
+oob="AUH_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	transport = 1
+}
+
+set_national_unity=0.60 
+set_convoys=50
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 75
+		}
+		
+		democratic = { 
+			popularity = 10
+		}
+		
+		fascism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1932.5.23"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	Unrepresented_Minorities
+}
+
+create_country_leader={ name = "Viktor Adler" desc=AUH_viktor_adler_DESC picture="gfx/leaders/AUH_viktor_adler.dds" expire="1935.1.1" ideology=marxism traits={  } }
+create_country_leader={ name = "Franz Ferdinand" desc=AUH_franz_ferdinand_DESC picture="gfx/leaders/AUH_franz_ferdinand.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Charles I" desc=AUH_karl_i_DESC picture="gfx/leaders/AUH_karl_i.dds" expire="1965.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Otto I" desc=AUH_otto_i_DESC picture="gfx/leaders/AUH_otto_i.dds" expire="1965.1.1" ideology=constitutional_monarchy traits={  } }
+create_corps_commander={  name = "Boroevic von Bojna" id=6010 portrait_path="gfx/generals/AUH_boroevic_von_bojna.tga" traits={   } skill=3 }
+create_corps_commander={  name = "von Mecenseffy" id=6036 portrait_path="gfx/generals/AUH_von_mecenseffy.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Czibulka von Buchland" id=6066 portrait_path="gfx/generals/AUH_czibulka_von_buchland.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Roth von Limanowa-Lapanow" id=6078 portrait_path="gfx/generals/AUH_roth_von_limanowa_lapanow.tga" traits={   } skill=3 }
+create_corps_commander={  name = "von Pflanzer-Baltin" id=6111 portrait_path="gfx/generals/AUH_von_pflanzer_baltin.tga" traits={   } skill=3 }
+create_corps_commander={  name = "von Wurm" id=6124 portrait_path="gfx/generals/AUH_von_wurm.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Goglia von Zlóta Lipa" id=6133 portrait_path="gfx/generals/AUH_goglia_von_zlota_lipa.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Dankl von Krasnik" id=6139 portrait_path="gfx/generals/AUH_dankl_von_krasnik.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Krauß A." id=6205 portrait_path="gfx/generals/AUH_krauss_a.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Schemua" id=6291 portrait_path="gfx/generals/AUH_schemua.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Kovess von Kovesshaza" id=6396 portrait_path="gfx/generals/AUH_kovess_von_kovesshaza.tga" traits={  fortress_buster } skill=3 }
+create_corps_commander={  name = "von Kirchbach auf Lauterbach K." id=6401 portrait_path="gfx/generals/AUH_von_kirchbach_auf_lauterbach_k.tga" traits={   } skill=1 }
+create_corps_commander={  name = "von Mikulicz-Radecki" id=6402 portrait_path="gfx/generals/AUH_von_mikulicz_radecki.tga" traits={   } skill=4 }
+create_corps_commander={  name = "von Schonburg-Hartenstein" id=6403 portrait_path="gfx/generals/AUH_von_schonburg_hartenstein.tga" traits={  commando } skill=3 }
+create_field_marshal={  name = "Conrad von Hötzendorf" id=6137 portrait_path="gfx/fieldmarshal/AUH_conrad_von_hotzendorf.tga" traits={ offensive_doctrine  } skill=3 }
+create_field_marshal={  name = "von Üxküll-Gyllenband" id=6154 portrait_path="gfx/fieldmarshal/AUH_von_uxkull_gyllenband.tga" traits={ old_guard  } skill=4 }
+create_field_marshal={  name = "Bolfras von Ahnenburg" id=6386 portrait_path="gfx/fieldmarshal/AUH_bolfras_von_ahnenburg.tga" traits={   } skill=3 }
+create_navy_leader={  name = "von Minutillo" id=6109 portrait_path="gfx/admiral/AUH_von_minutillo.tga" traits={   } skill=2 }
+create_navy_leader={  name = "von Montecuccoli" id=6149 portrait_path="gfx/admiral/AUH_von_montecuccoli.tga" traits={   } skill=3 }
+create_navy_leader={  name = "Haus" id=6162 portrait_path="gfx/admiral/AUH_haus.tga" traits={ superior_tactician  } skill=3 }
+create_navy_leader={  name = "Njegovan" id=6234 portrait_path="gfx/admiral/AUH_njegovan.tga" traits={   } skill=3 }
+create_navy_leader={  name = "von Chmelarz" id=6265 portrait_path="gfx/admiral/AUH_von_chmelarz.tga" traits={   } skill=3 }
+create_navy_leader={  name = "von Keil" id=6272 portrait_path="gfx/admiral/AUH_von_keil.tga" traits={   } skill=3 }
+create_navy_leader={  name = "von Ripper" id=6362 portrait_path="gfx/admiral/AUH_von_ripper.tga" traits={   } skill=3 }
+create_navy_leader={  name = "von Seidensacher" id=6365 portrait_path="gfx/admiral/AUH_von_seidensacher.tga" traits={   } skill=3 }
+create_navy_leader={  name = "Horthy N." id=6394 portrait_path="gfx/admiral/AUH_horthy_n.tga" traits={ superior_tactician  } skill=3 }
+create_navy_leader={  name = "von Trapp" id=6404 portrait_path="gfx/admiral/AUH_von_trapp.tga" traits={ seawolf  } skill=3 }
+

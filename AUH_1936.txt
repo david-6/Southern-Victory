@@ -1,0 +1,276 @@
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+	
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Mountain Division"		
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	division= {	
+		name = "1. Infantry Division"
+		location = 11666
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2. Infantry Division"
+		location = 11666
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3. Infantry Division"
+		location = 11542
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4. Infantry Division"
+		location = 11542
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5. Infantry Division"
+		location = 9660
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "6. Infantry Division"
+		location = 9660
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "7. Infantry Division"
+		location = 6626
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "8. Infantry Division"
+		location = 11586
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1. Militia Division"
+		location = 6626
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2. Militia Division"
+		location = 3924
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3. Militia Division"
+		location = 6889
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4. Militia Division"
+		location = 11610
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5. Militia Division"
+		location = 11581
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "6. Militia Division"
+		location = 11536
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "7. Militia Division"
+		location = 3694
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "8. Militia Division"
+		location = 11899
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "9. Militia Division"
+		location = 9906
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "10. Militia Division"
+		location = 662
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+		division= {	
+		name = "11. Militia Division"
+		location = 11618
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "12. Militia Division"
+		location = 11618
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "13. Militia Division"
+		location = 442
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "14. Militia Division"
+		location = 6619
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+		division= {	
+		name = "15. Militia Division"
+		location = 9598
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "16. Militia Division"
+		location = 9598
+		division_template = "Militia Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1. Cavalry Division"
+		location = 11899
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2. Cavalry Division"
+		location = 11666
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+		division= {	
+		name = "3. Cavalry Division"
+		location = 9627
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4. Cavalry Division"
+		location = 11659
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1. Mountain Division"
+		location = 9704
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2. Mountain Division"
+		location = 690
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3. Mountain Division"
+		location = 690
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4. Mountain Division"
+		location = 11598
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5. Mountain Division"
+		location = 6631
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "6. Mountain Division"
+		location = 6673
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "7. Mountain Division"
+		location = 9906
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "8. Mountain Division"
+		location = 9849
+		division_template = "Mountain Division"
+		start_experience_factor = 0.2
+	}
+}

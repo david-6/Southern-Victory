@@ -1,0 +1,256 @@
+ideas = {
+
+	country = {
+	
+		Unrepresented_Minorities = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.25
+				unity_factor = -0.20
+				political_power_cost = 0.8
+			}
+		}
+	}
+	
+	# TECHNOLOGY
+		tank_manufacturer = { 
+		
+		designer = yes
+		
+		Manfred_Weiss = {
+
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}				
+		}
+		
+	}
+	
+	aircraft_manufacturer = {
+				
+		designer = yes
+		
+		Phonix_Flugzeug-Werke = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rogozarski = {
+			
+			picture = generic_air_manufacturer_2
+
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and fighter airplanes Rogozarski PVT
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		Lohner = {
+
+			allowed = {
+				original_tag = AUH
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	
+	}
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		Stabilimento_Tecnico_Triestino = {
+
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+		
+		Pola_Navy_Yard = {
+
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+	
+		materiel_manufacturer = {	
+		
+		designer = yes
+		
+		Steyr_Mannlicher = {
+
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		skoda = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		praga = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+		industrial_concern = {
+		
+		skoda = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		Ganz_Works = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}	
+		theorist = {
+		
+		leo_szilard = {
+			
+			allowed = {
+				original_tag = AUH
+			}
+			
+			research_bonus = {
+				nuclear = 0.10
+			}
+			
+			traits = { nuclear_scientist }
+		}	
+	}
+}
